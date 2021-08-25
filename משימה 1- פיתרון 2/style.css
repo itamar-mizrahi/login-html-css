@@ -1,0 +1,63 @@
+body{
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(192, 188, 185);
+}
+.loginbox{
+    background-color: rgb(41, 51, 62);
+    display:flex;
+    justify-content:space-around;
+    width: 420px;
+    height: 420px;
+    flex-direction:column;
+    align-items:center;
+    font-family: verdana;      
+}
+
+button{
+    border:none;
+    color: azure;
+}
+.upper-buttons{
+    display:flex;
+}
+.green-up{ 
+
+    background-color: rgb(32, 176, 135); 
+    font-family: verdana ;  
+    padding: 15px 60px;
+}
+
+.gray-up{
+    background-color: rgb(67, 81, 86);
+    color: gray;  
+    font-family: verdana ; 
+    padding: 15px 60px;  
+}
+h1{
+    color: white;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+input{
+	color:white;
+    margin:5px ;
+    flex-direction:column;
+    border: 1px solid rgb(158, 163, 163);
+    background-color: rgb(41, 51, 62);
+}
+.down-inputs{
+    display:flex;
+    flex-direction:column;
+}
+
+.green-down{
+    background-color: rgb(32, 176, 135); 
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: verdana; 
+    padding: 20px 80px;
+}
+
